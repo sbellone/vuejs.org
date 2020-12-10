@@ -125,12 +125,27 @@
       docsearch({
       appId: 'ARZ9VZDBVI',
       apiKey: '4cf92b5e358f8093c5987084b93fa0fa',
-      indexName: 'test_vuejs_docsearch_generic',
+      indexName: 'netlify_vuejs_test_all',
       inputSelector: selector,
       // algoliaOptions: { facetFilters: ["version:" + version] },
       autocompleteOptions: { hint: false, appendTo: 'body'}
       })
     })
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<!--    <link rel="stylesheet" href="http://localhost:9100/algoliasearchNetlify.css" />-->
+<!--    <script type="text/javascript" src="http://localhost:9100/algoliasearchNetlify.js"></script>-->
+    <script type="text/javascript">
+      algoliasearchNetlify({
+        appId: 'ARZ9VZDBVI',
+        apiKey: '4cf92b5e358f8093c5987084b93fa0fa',
+        siteId: 'vuejs',
+        branch: 'test',
+        debug: true,
+        selector: '#search-query-menu-2',
+      });
     </script>
   </body>
 </html>

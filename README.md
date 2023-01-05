@@ -1,4 +1,6 @@
-﻿# vuejs.org
+﻿> This fork of the Vue.js doc is meant to test the [Algolia Netlify plugin](https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/)
+
+# vuejs.org
 
 > Important: This repository is for Vue 1.x and 2.x only. Issues and pull requests related to 3.x are managed in the [v3 doc repo](https://github.com/vuejs/docs-next).
 
